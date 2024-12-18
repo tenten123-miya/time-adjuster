@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>時間</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+    button {
+      width: 30%; /* ボタンの幅を画面幅の30%に設定 */
+      font-size: 1.5em;
+      padding: 10px 0;
+      margin: 20px auto;
+      display: block;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .result {
+      font-size: 1.5em;
+      margin-top: 20px;
+    }
+    .current-time {
+      font-size: 1.2em;
+      margin-top: 10px;
+      color: gray;
+    }
+  </style>
+</head>
+<body>
+  <h1>時間</h1>
+  <button onclick="adjustTime()">実行</button>
+  <div class="current-time" id="current-time">現在時刻: --:--</div>
+  <div class="result" id="result">結果がここに表示されます。</div>
+  <script src="script.js"></script>
+</body>
+</html>

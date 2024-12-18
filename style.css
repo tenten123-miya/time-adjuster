@@ -1,0 +1,13 @@
+button {
+  width: 30%; /* ボタンの幅を画面幅の30%に設定 */
+  font-size: 1.5em; /* 文字サイズ調整 */
+  padding: 10px 0; /* 高さを調整するため上下の余白を指定 */
+  margin: 20px auto; /* ボタンを中央揃え */
+  display: block; /* 中央揃えを確実にするための設定 */
+  background-color: #4CAF50; /* 背景色 */
+  color: white; /* 文字色 */
+  border: none; /* 枠線をなくす */
+  border-radius: 10px; /* 角を丸くする */
+  cursor: pointer; /* カーソルをポインタに変更 */
+}
+  
